@@ -1,4 +1,5 @@
 import React from "react";
+
 export class User extends React.Component {
   render() {
     console.warn("Render method", this.props);

@@ -1,15 +1,21 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 // import ClassComponent from "./components/ClassComponent";
-import { User } from "./components/User";
+// import { User } from "./components/User";
+// import { CounterUpDate } from "./components/CounterUpDate";
+// import CounterUpDate from "./components/CounterUpDate";
+import Home from "./components/Home";
+import CounterValue from "./components/CounterValue";
 
 const App = () => {
-  const [name, setName] = React.useState(" Anil");
+  // const [name, setName] = React.useState(" Anil");
 
   return (
     <div className="App">
-      <h1>render methods in react</h1>
-      <User name={name} />
-      <button onClick={() => setName(" sidhu")}>UpDate Name</button>
+      {/* <CounterUpDate /> */}
+      <CounterValue />
+      <Home />
+      {/* <User name={name} /> */}
+      {/* <button onClick={() => setName(" sidhu")}>UpDate Name</button> */}
     </div>
   );
 };
